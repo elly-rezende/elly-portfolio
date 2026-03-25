@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 // ─── SUPABASE CONFIG ───
-const SUPABASE_URL = "https://vinzdrztlsiznyhglagf.supabase.com";
+const SUPABASE_URL = "https://vinzdrztlsiznyhglagf.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZpbnpkcnp0bHNpem55aGdsYWdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNzUwOTgsImV4cCI6MjA4OTk1MTA5OH0.UcFOjDpjiCxksbzVGTQ3Yj7PUu-o83Bb1xFr5ifgcyo";
 
 async function saveContact(data) {
