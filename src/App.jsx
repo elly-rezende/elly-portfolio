@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 
 // ─── SUPABASE CONFIG ───
-const SUPABASE_URL = "https://vinzdrztlsiznyhglagf.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZpbnpkcnp0bHNpem55aGdsYWdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNzUwOTgsImV4cCI6MjA4OTk1MTA5OH0.UcFOjDpjiCxksbzVGTQ3Yj7PUu-o83Bb1xFr5ifgcyo";
+const SUPABASE_URL = "https://nrftvkralygjtlgaxkua.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5yZnR2a3JhbHlnanRsZ2F4a3VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ0NTg5MjksImV4cCI6MjA5MDAzNDkyOX0.bkcLRxiprpZTaWGoM_J9BVRLfeWBUR_RqOmYS8Am-6Y";
 
 async function saveContact(data) {
   const res = await fetch(`${SUPABASE_URL}/rest/v1/contacts`, {
