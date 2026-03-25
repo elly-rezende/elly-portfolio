@@ -174,7 +174,7 @@ function TerminalBoot({ onComplete }) {
     { text: "  ╚═══════════════════════════════════════════╝", delay: 2000, color: "#D4A853" },
     { text: "", delay: 2300 },
     { text: "$ cat /etc/motd", delay: 2500, color: "#7DD3A8" },
-    { text: "Welcome. I'm Adrielly Rezende de Souza — but you can call me Elly.", delay: 2800, color: "#ccc" },
+    { text: "Welcome. I'm Elly Rezende — I build content systems, full-stack apps, and AI-powered tools.", delay: 2800, color: "#ccc" },
     { text: "I build content distribution systems, full-stack apps, and AI-powered tools.", delay: 3200, color: "#ccc" },
     { text: "", delay: 3600 },
     { text: "$ ls ~/projects", delay: 3800, color: "#7DD3A8" },
@@ -494,9 +494,9 @@ export default function App() {
           </span>
         </div>
         <h1 style={{ fontSize: 48, fontWeight: 700, color: "#f0e8df", margin: "0 0 16px", lineHeight: 1.15 }}>
-          Adrielly Rezende
+          Elly
           <br />
-          <span style={{ color: "#D4A853" }}>de Souza</span>
+          <span style={{ color: "#D4A853" }}>Rezende</span>
         </h1>
         <p style={{ fontSize: 20, color: "#888", maxWidth: 600, lineHeight: 1.6, margin: "0 0 32px" }}>
           I'm{" "}
@@ -725,7 +725,7 @@ export default function App() {
         }}
       >
         <span style={{ fontFamily: "'JetBrains Mono', monospace" }}>
-          © {new Date().getFullYear()} Adrielly Rezende de Souza · Built with React
+          © {new Date().getFullYear()} Elly Rezende · Built with React
         </span>
       </footer>
     </div>

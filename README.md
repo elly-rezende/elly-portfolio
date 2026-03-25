@@ -51,6 +51,6 @@ CREATE POLICY "Allow anonymous inserts"
 
 ## Author
 
-**Adrielly Rezende de Souza**
+**Elly Rezende**
 - [LinkedIn](https://linkedin.com/in/adrielly-rezende)
 - [GitHub](https://github.com/elly-rezende)
