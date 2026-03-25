@@ -163,7 +163,7 @@ function TerminalBoot({ onComplete }) {
   const ref = useRef(null);
 
   const bootSequence = [
-    { text: "$ ssh elly@portfolio.dev", delay: 0, color: "#D4A853" },
+    { text: "$ ssh elly@ellyrezende.dev", delay: 0, color: "#D4A853" },
     { text: "Connected to elly.dev — Florianópolis, BR", delay: 600, color: "#555" },
     { text: "", delay: 1200 },
     { text: "  ╔═══════════════════════════════════════════╗", delay: 1500, color: "#D4A853" },
