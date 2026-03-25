@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 // ─── SUPABASE CONFIG ───
 const SUPABASE_URL = "https://nrftvkralygjtlgaxkua.supabase.co";
-const SUPABASE_KEY = "sb_publishable_jO692uhxwVEfIPWPHvq8NQ_WxV-LJlU";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5yZnR2a3JhbHlnanRsZ2F4a3VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ0NTg5MjksImV4cCI6MjA5MDAzNDkyOX0.bkcLRxiprpZTaWGoM_J9BVRLfeWBUR_RqOmYS8Am-6Y";
 
 async function saveContact(data) {
   const res = await fetch(`${SUPABASE_URL}/rest/v1/contacts`, {
@@ -634,7 +634,7 @@ export default function App() {
 
       {/* CONTACT */}
       <section id="contact" style={sectionStyle}>
-        {sectionTitle("mail elly@portfolio.dev", "Let's work together")}
+        {sectionTitle("mail ellyrezendecontact@gmail.com", "Let's work together")}
         <div style={{ maxWidth: 520 }}>
           <p style={{ color: "#888", fontSize: 15, lineHeight: 1.7, marginBottom: 32 }}>
             Open to Content Operations, Digital Distribution, Social Media Operations, and Technical Content Management roles — remote or hybrid. Based in Florianópolis, Brazil.
